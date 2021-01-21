@@ -6,7 +6,6 @@
         <router-link v-bind:to="'/products/' + product.id">
             <button>View Details</button>
         </router-link>
-
     </div>
 </template>
 

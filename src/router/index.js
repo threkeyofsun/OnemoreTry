@@ -4,16 +4,10 @@ import CartPage from '../views/CartPage.vue';
 import ProductDetailPage from '../views/ProductDetailPage.vue';
 import ProductsPage from '../views/ProductsPage.vue';
 import NotFoundPage from '../views/NotFoundPage.vue';
-import about from '../views/About.vue';
 
 Vue.use(VueRouter)
 
 const routes = [
-  {
-    path: '/user/:s_id',
-    name: 'about',
-    component: about,
-  },
   {
     path: '/products',
     name: 'Products',

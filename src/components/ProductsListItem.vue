@@ -6,9 +6,9 @@
         <p>${{ product.price }}</p>
       </div>
       <button
-       class="remove-button"
-       v-on:click ="$emit('remove-from-cart', product.id)"
-       >Remove From Cart</button>
+        class="remove-button"
+        v-on:click="$emit('remove-from-cart', product.id)"
+      >Remove From Cart</button>
     </div>
 </template>
 
